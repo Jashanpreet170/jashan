@@ -1,0 +1,60 @@
+print 'Hello World!!'
+
+#In the following part, I will explain variables
+
+#Variable types in Python:
+
+#X is an integer
+x = 3
+
+#n is a string
+n = 'Country'
+
+#b is the boolean variable
+b = bool(0)
+
+#f is the floating point number
+f = 12.3456
+
+#Operations in variables
+
+#addition
+y = x + 2
+
+#Subtraction
+z = y - 1
+
+#Multiplication
+m = z * 2
+
+#division
+d = m / 2
+
+print("The value of b is:" + str(b))
+
+#Exercise: Write down a program to calculate the temperature of 100 Centigrad to Frenheit
+
+c = 100
+farenhit = c * 9 / 5 + 32
+
+print("The temperature in farenheit is: " + str(farenhit))
+
+
+import random
+
+random_number= random.randint(1,101)
+print("random no. is " + str(random_number))
+
+user_number = int(input("enter the no.  "))
+print "user_number"
+
+while random_number != user_number:
+    if (user_number<random_number):
+      print ("guess big")
+    if(user_number>random_number):
+      print ("guess smaller")
+    user_number = int(input("enter the number "))
+print ("successs!!")
+
+
+
